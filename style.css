@@ -1,0 +1,96 @@
+table {
+    width: 520px;
+    height: 520px;
+    margin: auto;
+    padding: 10px;
+    border-spacing: 10px;
+    border: solid 5px darkgrey;
+    background-color: black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: solid 2px darkgrey;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+td[nbr="2"] {
+    background-color: lightyellow;
+}
+
+td[nbr="4"] {
+    background-color: lemonchiffon;
+}
+
+td[nbr="8"] {
+    background-color: papayawhip;
+}
+
+td[nbr="16"] {
+    background-color: moccasin;
+}
+
+td[nbr="32"] {
+    background-color: khaki;
+}
+
+td[nbr="64"] {
+    background-color: #FFFFCC;
+}
+
+td[nbr="128"] {
+    background-color: #ffff99;
+}
+
+td[nbr="256"] {
+    background-color: #FFFF66;
+}
+
+td[nbr="512"] {
+    background-color: #FFFF33;
+}
+
+td[nbr="1024"] {
+    background-color: #FFFF00;
+}
+
+td[nbr="2048"] {
+    color: #FFED00;
+    background-color: black;
+}
+
+.FinishScreen {
+    font-family: 'Mansalva', cursive;
+    background-color: #FFED00;
+    border : solid black;
+    width: 520px;
+    height: 520px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.GameOver {
+    font-family: 'Mansalva', cursive;
+    background-color: #FFED00;
+    border: solid black;
+    width: 520px;
+    height: 520px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.Score {
+    font-family: 'Mansalva', cursive;
+    font-size : 20px;
+    border: solid black;
+    padding: 10px;
+    text-align:center;
+}
+
+.Banana {
+    width: 200px;
+	height: 200px;
+}

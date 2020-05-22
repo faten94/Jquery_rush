@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="Base2048.js"></script>
+    <title>Rush 2048</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="2048-pour-les-nuls.png">
+
+    <div class="Games">
+        <p class="Score">Score </p>
+        <!-- le 2048 sera inséré ici -->
+    </div>
+
+    <div class="FinishScreen" style="display:none">
+            <h1>BRAVO !</h1>
+            <p>TROOOP COOOL !<span id="score"></span></p>
+            <p>Tu gères la fougère ! </p>
+            <p></p>
+            <img alt="" src="imbecile-heureux.gif" />
+            <p></p>
+            <button onclick="location.href = 'http://coding-academy.com/2048/';" id="myButton" class="float-center submit-button" >Recommencer</button>
+    </div>
+
+    <div class="GameOver" style="display:none">
+        <h1>Ah bah, du coup t'as perdu !</h1>
+        <h2>Game Over !</h2>
+        <h3>Essayes encore, c'est pas si compliqué que ça!<span id="score"></span></h3>
+        <p></p>
+        <img class ="Banana" alt="" src="espece-de-banane.gif" />
+        <p></p>
+        <button onclick="location.href = 'http://coding-academy.com/2048/';" id="myButton" class="float-center submit-button" >RESTART</button>
+</div>
+        
+
+<script type="text/javascript">
+
+$(function()
+  {
+     $('.Games').game2048(); 
+    
+    });
+
+</script>
+
+
+
+</body>
+</html>
